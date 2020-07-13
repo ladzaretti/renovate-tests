@@ -12,9 +12,47 @@
   <artifactId>renovate-tests</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
+  <properties>
+    <version.angular>1.6.9</version.angular>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.webjars.bower</groupId>
+      <artifactId>angular</artifactId>
+      <version>${version.angular}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.bower</groupId>
+      <artifactId>angular-cookies</artifactId>
+      <version>${version.angular}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.bower</groupId>
+      <artifactId>angular-i18n</artifactId>
+      <version>${version.angular}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.bower</groupId>
+      <artifactId>angular-resource</artifactId>
+      <version>${version.angular}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.bower</groupId>
+      <artifactId>angular-route</artifactId>
+      <version>${version.angular}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.bower</groupId>
+      <artifactId>angular-sanitize</artifactId>
+      <version>${version.angular}</version>
+    </dependency>
+  </dependencies>
+
   <build>
     <pluginManagement>
       <plugins>
+        <!-- https://github.com/renovatebot/renovate/issues/6742 -->
         <plugin>
           <groupId>com.github.ekryd.sortpom</groupId>
           <artifactId>sortpom-maven-plugin</artifactId>

@@ -12,6 +12,15 @@
   <artifactId>renovate-tests</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
+  <dependencies>
+    <!-- https://github.com/renovatebot/renovate/issues/XXX -->
+    <dependency>
+      <groupId>de.undercouch</groupId>
+      <artifactId>bson4jackson</artifactId>
+      <version>2.9.2</version>
+    </dependency>
+  </dependencies>
+
   <build>
     <pluginManagement>
       <plugins>

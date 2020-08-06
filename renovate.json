@@ -2,6 +2,11 @@
   "extends": [
     "config:base"
   ],
+  "maven": {
+    "fileMatch": [
+      "^pom\\.xml$"
+    ]
+  },
   "commitMessageAction": "Upgrade",
   "commitMessageTopic": "{{depName}}",
   "commitMessageExtra": "{{fromVersion}} -> {{toVersion}}"

@@ -8,6 +8,12 @@
     <version>0.0.3</version>
   </parent>
 
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>submodule-test</module>
+  </modules>
+
   <groupId>com.github.hisener</groupId>
   <artifactId>renovate-tests</artifactId>
   <version>0.0.1-SNAPSHOT</version>

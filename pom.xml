@@ -12,6 +12,7 @@
 
   <modules>
     <module>submodule-test</module>
+    <module>submodule-test-2</module>
   </modules>
 
   <groupId>com.github.hisener</groupId>

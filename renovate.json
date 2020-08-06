@@ -4,7 +4,7 @@
   ],
   "maven": {
     "fileMatch": [
-      "^pom\\.xml$"
+      "^(?:submodule-test/)?pom\\.xml$"
     ]
   },
   "commitMessageAction": "Upgrade",

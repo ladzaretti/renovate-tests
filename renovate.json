@@ -2,12 +2,14 @@
   "extends": [
     "config:base"
   ],
-  "maven": {
-    "fileMatch": [
-      "^(?:submodule-test/)?pom\\.xml$"
-    ]
-  },
   "commitMessageAction": "Upgrade",
   "commitMessageTopic": "{{depName}}",
-  "commitMessageExtra": "{{fromVersion}} -> {{toVersion}}"
+  "commitMessageExtra": "{{fromVersion}} -> {{toVersion}}",
+  "packageRules": [
+    {
+      "datasources": ["maven"],
+      "managers": ["maven"],
+      "fileMatch": [ "^(?:submodule-test\\/)?pom\\.xml$" ]
+    }
+  ]
 }

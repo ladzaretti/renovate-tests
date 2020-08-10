@@ -7,9 +7,10 @@
   "commitMessageExtra": "{{fromVersion}} -> {{toVersion}}",
   "packageRules": [
     {
-      "datasources": ["maven"],
-      "managers": ["maven"],
-      "fileMatch": [ "^(?:submodule-test\\/)?pom\\.xml$" ]
+      "datasources": [ "maven" ],
+      "managers": [ "maven" ],
+      "fileMatch": [ "^(?!(?:submodule-test\/)?pom\\.xml$).+" ],
+      "enabled": false
     }
   ]
 }

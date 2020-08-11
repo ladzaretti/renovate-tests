@@ -5,10 +5,11 @@
   "commitMessageAction": "Upgrade",
   "commitMessageTopic": "{{depName}}",
   "commitMessageExtra": "{{fromVersion}} -> {{toVersion}}",
-  "maven": {
-    "fileMatch": [ "^submodule-test\/pom\\.xml" ]
-  },
-  "ignorePaths": [
-    "*/**/pom.xml"
+  "enabledManagers": [
+    "maven"
+  ],
+  "includePaths": [
+    "pom.xml",
+    "submodule-test/pom.xml"
   ]
 }

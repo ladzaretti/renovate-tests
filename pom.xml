@@ -26,6 +26,11 @@
       <artifactId>bson4jackson</artifactId>
       <version>2.9.2</version>
     </dependency>
+    <dependency>
+      <groupId>com.google.auto.service</groupId>
+      <artifactId>auto-service</artifactId>
+      <version>1.0-rc6</version>
+    </dependency>
   </dependencies>
 
   <build>

@@ -11,5 +11,14 @@
   "includePaths": [
     "pom.xml",
     "submodule-test/pom.xml"
+  ],
+  "packageRules": [
+    {
+      "packagePatterns": [
+        "^com.google.(guava|auto)(\\..+)*:.+$"
+      ],
+      "versioning": "regex:^(?<major>\\d+)(\\.(?<minor>\\d+))?(\\.(?<patch>\\d+))?(-(?<compatibility>.*))?$",
+      "allowedVersions": "!/.+-android/"
+    }
   ]
 }

@@ -6,11 +6,13 @@
   "commitMessageTopic": "{{depName}}",
   "commitMessageExtra": "{{fromVersion}} -> {{toVersion}}",
   "enabledManagers": [
-    "maven"
+    "maven",
+    "pipenv"
   ],
   "includePaths": [
     "pom.xml",
-    "submodule-test/pom.xml"
+    "submodule-test/pom.xml",
+    "**/Pipfile"
   ],
   "packageRules": [
     {

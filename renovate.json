@@ -1,9 +1,18 @@
 {
-  "enabled": false,
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base"
   ],
   "ignorePresets": [
      ":prHourlyLimit2"
+  ],
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "^version\\.hibernate-validator$"
+      ],
+      "separateMajorMinor": true,
+      "separateMinorPatch": true
+    }
   ]
 }

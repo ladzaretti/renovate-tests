@@ -10,6 +10,7 @@
   "packageRules": [
     {
       "matchPackagePatterns": [
+        "^org\\.eclipse\\.jetty:jetty-bom$",
         "^version\\.hibernate-validator$"
       ],
       "separateMajorMinor": true,

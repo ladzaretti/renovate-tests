@@ -11,7 +11,7 @@
     {
       "matchPackagePatterns": [
         "^org\\.eclipse\\.jetty:jetty-bom$",
-        "^version\\.hibernate-validator$"
+        "^hibernate-validator$"
       ],
       "separateMajorMinor": true,
       "separateMinorPatch": true

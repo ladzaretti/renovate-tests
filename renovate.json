@@ -14,7 +14,7 @@
         "^org\\.hibernate\\.validator:hibernate"
       ],
       "separateMajorMinor": true,
-      "separateMinorPatch": true,
+      "separateMinorPatch": true
     }
   ]
 }

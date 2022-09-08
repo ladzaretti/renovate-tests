@@ -14,7 +14,8 @@
         "^org\\.hibernate\\.validator:hibernate"
       ],
       "separateMajorMinor": true,
-      "separateMinorPatch": true
+      "separateMinorPatch": true,
+      "groupName": "group jetty&hibernate-validator"
     }
   ]
 }

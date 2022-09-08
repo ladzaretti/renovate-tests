@@ -10,7 +10,7 @@
     <name>Renovate Tests Parent</name>
 
     <properties>
-        <version.hibernate-validator>6.1.7.Final</version.hibernate-validator>
+        <version.hibernate-validator>7.0.5.Final</version.hibernate-validator>
     </properties>
 
     <dependencyManagement>
@@ -28,7 +28,7 @@
             <dependency>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-bom</artifactId>
-                <version>9.4.40.v20210413</version>
+                <version>11.0.11</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

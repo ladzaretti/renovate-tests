@@ -10,7 +10,7 @@
     <name>Renovate Tests Parent</name>
 
     <properties>
-        <version.hibernate-validator>6.1.7.Final</version.hibernate-validator>
+        <version.hibernate-validator>6.2.4.Final</version.hibernate-validator>
     </properties>
 
     <dependencyManagement>

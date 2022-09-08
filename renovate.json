@@ -14,7 +14,8 @@
         "^hibernate-validator$"
       ],
       "separateMajorMinor": true,
-      "separateMinorPatch": true
+      "separateMinorPatch": true,
+      "groupName": "group1"
     }
   ]
 }
